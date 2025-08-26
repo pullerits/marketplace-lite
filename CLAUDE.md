@@ -73,8 +73,8 @@ The application uses a simple user profile system:
 - `draft/` - Frontend-only prototyping folder for marketplace UI experiments
 - `components/` - Reusable UI components (production-ready)
 - `lib/` - Utilities and Supabase client configurations
+- `public/images/` - Project assets organized by type (hero, products, categories)
 - Authentication forms and UI in dedicated component files
-- `lovable-example/` - Contains example React components (separate from main app)
 
 ### Key Development Patterns
 - **Draft-first approach**: Design and test marketplace UI in `/draft` folder first

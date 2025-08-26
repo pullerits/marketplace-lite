@@ -3,7 +3,7 @@ import ProductCard from './ProductCard';
 const featuredProducts = [
   {
     id: 1,
-    image: '/lovable-example/src/assets/ceramic-bowl.jpg',
+    image: '/images/products/ceramic-bowl.jpg',
     title: 'Handmade Ceramic Bowl - Earthy Glazed Pottery for Modern Home Decor',
     price: '$34.99',
     rating: 4.8,
@@ -12,7 +12,7 @@ const featuredProducts = [
   },
   {
     id: 2,
-    image: '/lovable-example/src/assets/macrame-hanging.jpg',
+    image: '/images/products/macrame-hanging.jpg',
     title: 'Boho Macrame Wall Hanging - Natural Cotton Cord Home Decor',
     price: '$48.50',
     rating: 4.9,
@@ -21,7 +21,7 @@ const featuredProducts = [
   },
   {
     id: 3,
-    image: '/lovable-example/src/assets/wooden-jewelry-box.jpg',
+    image: '/images/products/wooden-jewelry-box.jpg',
     title: 'Handcrafted Wooden Jewelry Box with Intricate Carved Details',
     price: '$76.00',
     rating: 4.7,
@@ -30,7 +30,7 @@ const featuredProducts = [
   },
   {
     id: 4,
-    image: '/lovable-example/src/assets/ceramic-bowl.jpg',
+    image: '/images/products/ceramic-bowl.jpg',
     title: 'Artisan Made Serving Bowl - Perfect for Fruit and Salads',
     price: '$42.25',
     rating: 4.9,
@@ -39,7 +39,7 @@ const featuredProducts = [
   },
   {
     id: 5,
-    image: '/lovable-example/src/assets/macrame-hanging.jpg',
+    image: '/images/products/macrame-hanging.jpg',
     title: 'Large Macrame Wall Art - Statement Piece for Living Room',
     price: '$68.99',
     rating: 4.6,
@@ -48,7 +48,7 @@ const featuredProducts = [
   },
   {
     id: 6,
-    image: '/lovable-example/src/assets/wooden-jewelry-box.jpg',
+    image: '/images/products/wooden-jewelry-box.jpg',
     title: 'Custom Engraved Wooden Box - Personalized Gift Box',
     price: '$55.00',
     rating: 4.8,

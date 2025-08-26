@@ -5,25 +5,25 @@ const categories = [
     id: 1,
     title: 'Gardening',
     subtitle: 'plants and planters',
-    image: '/lovable-example/src/assets/ceramic-bowl.jpg',
+    image: '/images/products/ceramic-bowl.jpg',
   },
   {
     id: 2,
     title: 'Popular Wall Decor',
     subtitle: 'Easy to hang framed',
-    image: '/lovable-example/src/assets/macrame-hanging.jpg',
+    image: '/images/products/macrame-hanging.jpg',
   },
   {
     id: 3,
     title: 'Woodworking',
     subtitle: 'Custom furniture',
-    image: '/lovable-example/src/assets/wooden-jewelry-box.jpg',
+    image: '/images/products/wooden-jewelry-box.jpg',
   },
   {
     id: 4,
     title: 'Personalized Gifts',
     subtitle: 'Made just for you',
-    image: '/lovable-example/src/assets/ceramic-bowl.jpg',
+    image: '/images/products/ceramic-bowl.jpg',
   },
 ];
 

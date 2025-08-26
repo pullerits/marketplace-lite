@@ -26,7 +26,7 @@ const HeroSection = () => {
           <div className="relative">
             <div className="rounded-2xl overflow-hidden shadow-xl">
               <Image 
-                src="/lovable-example/src/assets/hero-fall-decor.jpg"
+                src="/images/hero/hero-fall-decor.jpg"
                 alt="Fall-inspired home decor with warm autumn colors"
                 width={600}
                 height={400}
