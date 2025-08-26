@@ -6,7 +6,7 @@ const TestimonialsSection = () => {
       name: 'Sarah Johnson',
       location: 'Downtown',
       rating: 5,
-      text: 'The freshest produce I\'ve ever bought! Love supporting local farmers through this platform.',
+      text: 'The freshest produce I&apos;ve ever bought! Love supporting local farmers through this platform.',
       category: 'Produce'
     },
     {
@@ -47,7 +47,7 @@ const TestimonialsSection = () => {
               </div>
               
               <p className="text-foreground mb-4 italic">
-                "{testimonial.text}"
+                &ldquo;{testimonial.text}&rdquo;
               </p>
               
               <div className="flex items-center justify-between">

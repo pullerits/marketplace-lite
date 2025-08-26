@@ -14,7 +14,7 @@ const StatsSection = () => {
             Supporting Local Communities
           </h2>
           <p className="text-lg text-etsy-cream max-w-2xl mx-auto">
-            We're proud to connect you with the best local farmers, artisans, and vendors in your area.
+            We&apos;re proud to connect you with the best local farmers, artisans, and vendors in your area.
           </p>
         </div>
         
