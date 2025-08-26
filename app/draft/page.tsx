@@ -1,8 +1,11 @@
-import Header from '@/draft/components/Header';
-import HeroSection from '@/draft/components/HeroSection';
-import CategoryGrid from '@/draft/components/CategoryGrid';
-import FeaturedProducts from '@/draft/components/FeaturedProducts';
-import Footer from '@/draft/components/Footer';
+import Header from '@/app/draft/components/Header';
+import HeroSection from '@/app/draft/components/HeroSection';
+import CategoryGrid from '@/app/draft/components/CategoryGrid';
+import FeaturedProducts from '@/app/draft/components/FeaturedProducts';
+import StatsSection from '@/app/draft/components/StatsSection';
+import TestimonialsSection from '@/app/draft/components/TestimonialsSection';
+import CallToActionSection from '@/app/draft/components/CallToActionSection';
+import Footer from '@/app/draft/components/Footer';
 
 export default function DraftPage() {
   return (
@@ -12,6 +15,9 @@ export default function DraftPage() {
         <HeroSection />
         <CategoryGrid />
         <FeaturedProducts />
+        <StatsSection />
+        <TestimonialsSection />
+        <CallToActionSection />
       </main>
       <Footer />
     </div>
