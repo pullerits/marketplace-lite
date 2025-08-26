@@ -6,6 +6,7 @@ export default {
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./draft/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
@@ -51,6 +52,12 @@ export default {
           "4": "hsl(var(--chart-4))",
           "5": "hsl(var(--chart-5))",
         },
+        // Marketplace custom colors
+        "etsy-orange": "#F56A00",
+        "etsy-brown": "#8B4513",
+        "etsy-light-brown": "#A0522D",
+        "etsy-cream": "#FFF8DC",
+        "etsy-beige": "#F5F5DC",
       },
       borderRadius: {
         lg: "var(--radius)",
