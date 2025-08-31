@@ -2,8 +2,10 @@ import { Heart } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import Image from 'next/image';
+import Link from 'next/link';
 
 interface ProductCardProps {
+  id?: string | number;
   image: string;
   title: string;
   price: string;
@@ -12,9 +14,10 @@ interface ProductCardProps {
   seller: string;
 }
 
-const ProductCard = ({ image, title, price, rating, reviews, seller }: ProductCardProps) => {
+const ProductCard = ({ id = '1', image, title, price, rating, reviews, seller }: ProductCardProps) => {
   return (
-    <Card className="group cursor-pointer hover:shadow-lg transition-all duration-300 overflow-hidden border-border/50">
+    <Link href={`/draft/product/${String(id)}`}>
+      <Card className="group cursor-pointer hover:shadow-lg transition-all duration-300 overflow-hidden border-border/50">
       <div className="relative">
         <Image 
           src={image} 
@@ -56,7 +59,8 @@ const ProductCard = ({ image, title, price, rating, reviews, seller }: ProductCa
           <span className="text-xs text-muted-foreground">{seller}</span>
         </div>
       </div>
-    </Card>
+      </Card>
+    </Link>
   );
 };
 
